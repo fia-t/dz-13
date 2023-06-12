@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="GettersSettersTests">
+    <test name="ManGettersSetters">
+        <classes>
+            <class name="ManTest">
+                <methods>
+                    <include name="testGetPartner" />
+                    <include name="testSetPartner" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="WomanGettersSetters">
+        <classes>
+            <class name="WomanTest">
+                <methods>
+                    <include name="testGetPartner" />
+                    <include name="testSetPartner" />
+                    <include name="testSetPreviousLastName" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
