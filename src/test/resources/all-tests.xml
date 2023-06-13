@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="AllTests">
+    <test name="ManTests">
+        <classes>
+            <class name="ManTest" />
+        </classes>
+    </test>
+    <test name="WomanTests">
+        <classes>
+            <class name="WomanTest" />
+        </classes>
+    </test>
+</suite>
